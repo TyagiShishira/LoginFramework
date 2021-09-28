@@ -10,6 +10,7 @@
 		1FE68A6A95FCCB5DD08EE352 /* Pods_LoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57687B5C61FEB637189C3FBF /* Pods_LoginFramework.framework */; };
 		9335F7A027025D1B00146313 /* LoginFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9335F79E27025D1B00146313 /* LoginFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93486ED52702E69C00EDE9C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93486ED42702E69C00EDE9C1 /* LoginViewController.swift */; };
+		93486EEB2702F08600EDE9C1 /* ApiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93486EEA2702F08600EDE9C1 /* ApiFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9335F79E27025D1B00146313 /* LoginFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginFramework.h; sourceTree = "<group>"; };
 		9335F79F27025D1B00146313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93486ED42702E69C00EDE9C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93486EEA2702F08600EDE9C1 /* ApiFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				9335F79E27025D1B00146313 /* LoginFramework.h */,
 				9335F79F27025D1B00146313 /* Info.plist */,
 				93486ED42702E69C00EDE9C1 /* LoginViewController.swift */,
+				93486EEA2702F08600EDE9C1 /* ApiFile.swift */,
 			);
 			path = LoginFramework;
 			sourceTree = "<group>";
@@ -68,7 +71,6 @@
 				5C29009670C969CDCF9B5540 /* Pods-LoginFramework.debug.xcconfig */,
 				7B848E56ACFBECEF7357C100 /* Pods-LoginFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -185,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93486EEB2702F08600EDE9C1 /* ApiFile.swift in Sources */,
 				93486ED52702E69C00EDE9C1 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
