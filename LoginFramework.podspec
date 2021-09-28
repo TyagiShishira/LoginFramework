@@ -16,6 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "LoginFramework/**/*.{swift,h,m}"
   spec.swift_version = "5.0"
+  spec.dependency 'SnapKit'
   
 end
 
